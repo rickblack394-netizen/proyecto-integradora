@@ -1,0 +1,21 @@
+{
+  "name": "EcoBeauty",
+  "short_name": "EcoBeauty",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a8d5ba",
+  "description": "Aplicación web progresiva de EcoBeauty, cosmética natural y sostenible.",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
