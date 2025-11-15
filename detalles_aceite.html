@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles - Aceite Esencial Puro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #7C9D6E;
+            --secondary-color: #dbd2c5;
+            --accent-color: #4A6741;
+        }
+        
+        .hero {
+            /* Asegúrate de que 'Banner-productos.png' exista o reemplázalo con una URL */
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Banner-productos.png');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+        }
+
+        .btn-eco {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            transition: all 0.3s;
+        }
+
+        .btn-eco:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .feature-card {
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .eco-bg {
+            background-color: var(--secondary-color);
+        }
+
+        .footer {
+            background-color: var(--accent-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                 <i class="fas fa-arrow-left me-2"></i> Volver a la Tienda
+            </a>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <img src="Aceite.png" class="img-fluid rounded shadow" alt="Aceite Esencial Puro">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="mb-4">Aceite Esencial Puro de Lavanda</h1>
+                    <p class="lead mb-4">Aceite 100% natural, extraído mediante destilación al vapor. Ideal para aromaterapia y cuidado de la piel.</p>
+                    
+                    <hr>
+
+                    <h3 class="mt-4">Características</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i> Uso: Tópico (diluido) y Aromático.</li>
+                        <li><i class="fas fa-check text-success me-2"></i> Beneficios: Relajación, ayuda a conciliar el sueño y calma la irritación de la piel.</li>
+                        <li><i class="fas fa-check text-success me-2"></i> Fórmula: 100% Lavanda Pura (Lavandula Angustifolia).</li>
+                    </ul>
+
+                    <h3 class="mt-4">Ingredientes Clave</h3>
+                    <div class="eco-bg p-3 rounded">
+                        <p class="mb-1 fw-bold">Composición:</p>
+                        <p>Aceite Esencial Puro de Lavanda (100% Lavandula Angustifolia). Sin aditivos, rellenos o conservantes.</p>
+                    </div>
+
+                    <a href="index.html#productos" class="btn btn-eco btn-lg mt-4"><i class="fas fa-shopping-cart me-2"></i> Agregar al Carrito</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><i class="fas fa-leaf"></i> Ecobeauty</h5>
+                    <p>Tu belleza, naturalmente.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p><i class="fas fa-envelope me-2"></i> info@ecobeauty.com</p>
+                    <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

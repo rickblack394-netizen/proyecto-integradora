@@ -1,0 +1,43 @@
+/* Estilos para el carrito flotante y modal */
+.ec-cart-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1100;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg,#7C9D6E,#4A6741);
+  color: #fff;
+  border: none;
+}
+.ec-cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #dc3545;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+/* Modal cart overrides */
+#ecCartModal .modal-dialog { max-width: 520px; }
+#ecCartModal .cart-item { border-bottom: 1px solid #eee; padding: 12px 0; }
+#ecCartModal .cart-item:last-child { border-bottom: none; }
+#ecCartModal .cart-item .item-title { font-weight: 600; }
+#ecCartModal .qty-controls { display: inline-flex; align-items: center; gap: .5rem; }
+#ecCartModal .qty-controls button { min-width: 34px; }
+#ecCartModal .cart-empty { text-align: center; padding: 2rem 0; color: #666; }
+@media (max-width: 576px){
+  #ecCartModal .modal-dialog { width: 95%; margin: 1.75rem auto; }
+}
